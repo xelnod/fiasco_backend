@@ -1,0 +1,7 @@
+ipython 
+ipdb 
+django 
+django-rest-framework 
+django_extensions 
+django_rest_auth 
+psycopg2
