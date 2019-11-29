@@ -5,3 +5,5 @@ django-rest-framework
 django_extensions 
 django_rest_auth 
 psycopg2
+django-cors-headers
+django-configurations
