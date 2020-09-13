@@ -38,6 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'core',
+    'categories',
+    'expenses',
+    'channels',
+    'colorizer',
+    'tags',
+    'users',
     'rest_framework',
     'rest_auth',
     'rest_framework.authtoken',
@@ -155,4 +161,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-AUTH_USER_MODEL = 'core.User'
+AUTH_USER_MODEL = 'users.User'

@@ -3,7 +3,7 @@ from rest_framework.exceptions import ValidationError
 from rest_framework.serializers import ModelSerializer
 from rest_framework.validators import UniqueValidator
 
-from core.models import User
+from .models import User
 
 
 class UserDetailsSerializer(ModelSerializer):
