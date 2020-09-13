@@ -10,6 +10,7 @@ from rest_framework.routers import SimpleRouter
 urlpatterns = [
     # path('', include(router.urls)),
     path('admin/', admin.site.urls),
+    path('cats/', include('categories.urls')),
     path('rest-auth/', include('rest_auth.urls')),
     path('register/', RegisterView.as_view()),
 ]
