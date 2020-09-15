@@ -1,11 +1,11 @@
 from rest_framework import serializers
 
-from .models import Cat
+from .models import Tag
 
 
-class CatSerializer(serializers.ModelSerializer):
+class TagSerializer(serializers.ModelSerializer):
     owner = serializers.HiddenField(default=serializers.CurrentUserDefault())
 
     class Meta:
-        model = Cat
+        model = Tag
         fields = '__all__'

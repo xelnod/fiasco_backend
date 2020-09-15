@@ -1,11 +1,11 @@
 from rest_framework import serializers
 
-from .models import Cat
+from .models import Colour
 
 
-class CatSerializer(serializers.ModelSerializer):
+class ColourSerializer(serializers.ModelSerializer):
     owner = serializers.HiddenField(default=serializers.CurrentUserDefault())
 
     class Meta:
-        model = Cat
+        model = Colour
         fields = '__all__'

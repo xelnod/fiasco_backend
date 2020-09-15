@@ -1,6 +1,6 @@
 from django.urls import path
 
-from categories.views import CatListCreateView, CatRetrieveUpdateDestroyView
+from .views import CatListCreateView, CatRetrieveUpdateDestroyView
 
 urlpatterns = [
     path('', CatListCreateView.as_view()),

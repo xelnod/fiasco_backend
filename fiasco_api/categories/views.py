@@ -1,7 +1,7 @@
 from rest_framework import generics
 
-from categories.models import Cat
-from categories.serializers import CatSerializer
+from .models import Cat
+from .serializers import CatSerializer
 
 cats = Cat.objects.all()
 
